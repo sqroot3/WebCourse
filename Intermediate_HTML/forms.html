@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Demo</title>
+</head>
+<body>
+
+	<!-- Action - where the form sends data to  -->
+	<!-- Method - what HTTP method (get/post) -->
+	<!-- Form is a block level element -->
+	<!-- HTML5 Form Validation done through "required" attribute -->
+	<!-- Input types such as email can do their own type validation -->
+	
+	<!-- 
+	Labels: 2 types of syntax
+	<label>Something: <input type="text" name="something"></label>
+		or
+	<label for="something">Something: </label>
+	<input type="text" name="something"> 
+	-->
+
+	<h1>Login</h1>
+
+	<!-- First Label Method -->
+
+	<form action="http://wikipedia.org">
+		<label>
+			Email:
+			<input type="email" name="email" placeholder="email" required>
+		</label>
+		<label>
+			Password:
+			<input type="password" name="password" placeholder="password" required>
+		</label>
+		
+		<input type="submit" name="">
+	</form>
+
+	<!-- Second label method -->
+
+	<!-- <form action="http://wikipedia.org">
+		<label for="username">Username: </label>
+		<input id="username" type="text" name="username" placeholder="username">
+		<label for="password">Password: </label>
+		<input id="password" type="password" name="password" placeholder="password">
+
+		Buttons that are last on the form will be evaluated as input of type submit
+		<button>Submit</button>
+	</form> -->
+
+</body>
+</html>
