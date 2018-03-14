@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+
+<!-- <input type="checkbox" name=""> -->
+<!-- value attribute changes the value of each decision -->
+<!-- Select tag -> create drop down menus, use <option> for each option -->
+<!-- Textarea tag -> 1+ line of text input -->
+
+<!-- Radio button & Checkbox button -->
+<p>Do you prefer cats or dogs?</p>
+<form>
+	<label for="dogs">Dogs: </label>
+	<input id= "dogs" type="radio" name="petChoice" value="DOGS">
+	<label for="cats">Cats: </label>
+	<input id="cats" type="radio" name="petChoice" value="CATS">
+
+	<!-- Select tag -->
+	<p>What's your favorite color?</p>
+	<select name="colorChoice">
+		<option>Red</option>
+		<option>Orange</option>
+		<option>Yellow</option>
+	</select>
+
+	<p>What's your current mood?</p>
+	<select name="moodChoice">
+		<!-- Can also use value attribute on option element -->
+		<option value ="HAPPY">:)</option>
+		<option value ="NEUTRAL">:|</option>
+		<option value ="SAD">:(</option>
+	</select>
+
+	<!-- Textarea tag -->
+	<textarea rows="10" cols="10" name="introduction" placeholder="Enter your bio here"></textarea>
+
+	<button>Go!</button>
+</form>
+
+
+
+
+</body>
+</html>
