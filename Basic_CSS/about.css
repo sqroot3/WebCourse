@@ -1,0 +1,13 @@
+/*Element selector: allows to select all elements of one type*/
+
+h1 {
+	color: red;
+}
+
+li {
+	color: green;
+}
+
+h4 {
+	color: purple;
+}
