@@ -1,0 +1,30 @@
+/*Align header, give it specific font*/
+h1 {
+	text-align: center;
+	font-family: Georgia;
+}
+
+/*Give every cell a width and a height of 100px*/
+td {
+	width:100px;
+	height:100px;
+}
+
+/*Give cells that are in the middle (all rows for 2nd column) their border*/
+td:nth-of-type(2) {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	/*background: yellow;*/
+}
+
+/*Give cells that are in the middle (all columns for 2nd row) their border*/
+tr:nth-of-type(2) td {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	/*background: blue;*/
+}
+
+/*Center table */
+table {
+	margin: auto;
+}
