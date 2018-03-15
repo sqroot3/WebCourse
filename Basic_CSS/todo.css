@@ -1,0 +1,15 @@
+/*Element Selector: select all instances of a given element*/
+/*ID Selector: selects an element with a given ID. (ID's must be unique), access with #*/
+/*Class Selector: selects all elements with a given class. (A class does not need to be unique), access with .*/
+
+li {
+	border: 2px solid red;
+}
+
+#special {
+background: yellow;
+}
+
+.completed {
+	text-decoration: line-through;
+}
