@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<!-- Specificity: Have multiple styles targetting one element, need to decide which one wins (the more specific one wins) -->
+	<!-- Styling ul, li is indirectly changed as well -->
+	<!-- Specificity: inline, id, class/attributes/pseudo-classes, elements/pseudo-elements -->
+	<style type="text/css">
+		body {
+			color: red;
+		}
+		p {
+			color: green;
+		}
+		ul {
+			color: blue;
+		}
+
+		li { 
+			color: orange;
+		}
+
+		.highlight {
+			color: yellow;
+		}
+
+		#special {
+			color: pink;
+		}
+	</style>
+</head>
+<body>
+
+	<p>Hello !!!</p>
+
+	<ul>
+		<li id="special" class="highlight">John</li>
+		<li>Paul</li>
+		<li>George</li>
+		<li class="highlight">Ringo</li>
+	</ul>
+
+</body>
+</html>
