@@ -1,13 +1,16 @@
 /*Element selector: allows to select all elements of one type*/
 
+/*Now using hex colors*/
 h1 {
-	color: red;
+	color: #630EE3;
 }
 
-li {
-	color: green;
-}
-
+/*Now using rbg*/
 h4 {
-	color: purple;
+	color: rgb(130, 20, 100);
+}
+
+/*Using rbga*/
+li {
+	color: rgba(50, 20, 100, 0.3);
 }
